@@ -1,0 +1,55 @@
+site_name: Vadim Vorobiov | Portfolio
+site_author: Vadim Vorobiov
+site_description: >-
+  Portfolio moich projektów z zakresu Data Science i AI. Odkryj moje analizy, modele i aplikacje.
+
+# Ulepszona konfiguracja motywu
+theme:
+  name: material
+  palette:
+    # Automatyczny tryb jasny/ciemny
+    primary: indigo
+    accent: indigo
+    scheme: default
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+
+# Dodanie ikon do menu (wymaga fontawesome)
+nav:
+  - Start: index.md
+  - "Obecny projekt":
+      - "Pomocnik językowy": language_helper/index.md
+  - "Poprzednie projekty":
+      - "Analiza Olist E-commerce": olist/index.md
+      - "Klasyfikacja Iris": iris/index.md
+      - "Analiza Airbnb NY 2019": airbnb/index.md
+      - "Interaktywny chatbot": chatbot.md
+
+# Rozszerzenia Markdown dla Data Science
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - tables
