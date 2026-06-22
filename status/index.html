@@ -13,10 +13,8 @@
       
       
       
-        <link rel="prev" href="../language_helper/">
+        <link rel="prev" href="../chatbot/">
       
-      
-        <link rel="next" href="../iris/">
       
       
         
@@ -27,7 +25,7 @@
     
     
       
-        <title>Analiza Olist E-commerce - Vadim Vorobiov | Portfolio</title>
+        <title>Status - Vadim Vorobiov | Portfolio</title>
       
     
     
@@ -76,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#analiza-eda-i-segmentacja-klientow-rfm-na-rynku-e-commerce-olist-sql" class="md-skip">
+        <a href="#projekt-w-trakcie-aktualizacji" class="md-skip">
           Skip to content
         </a>
       
@@ -110,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Analiza Olist E-commerce
+              Status
             
           </span>
         </div>
@@ -222,13 +220,11 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../olist/" class="md-tabs__link">
           
   
   
@@ -244,9 +240,11 @@
   
   
   
+    
   
-    <li class="md-tabs__item">
-      <a href="../status/" class="md-tabs__link">
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
         
   
   
@@ -412,31 +410,28 @@
       
   
   
-    
   
   
-  
     
     
     
     
-      
-        
-        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
   
   
@@ -454,7 +449,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -469,19 +464,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../olist/" class="md-nav__link">
         
   
   
@@ -497,7 +483,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -598,10 +583,19 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../status/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -617,6 +611,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -656,29 +651,8 @@
 
 
 
-<h1 id="analiza-eda-i-segmentacja-klientow-rfm-na-rynku-e-commerce-olist-sql">Analiza EDA i Segmentacja Klientów RFM na Rynku E-Commerce (Olist &amp; SQL)</h1>
-<p><strong>2026-06-19</strong></p>
-<p>Kompleksowa analiza eksploracyjna (EDA) oraz zaawansowana segmentacja klientów brazylijskiego rynku e-commerce na podstawie rzeczywistych danych platformy <strong>Olist</strong> (ponad 100k zamówień). </p>
-<p>W projekcie połączyłem wydajność nowoczesnego silnika relacyjnego <strong>DuckDB (SQL)</strong> pracującego w pamięci z możliwościami wizualizacyjnymi bibliotek <strong>Python (Seaborn &amp; Matplotlib)</strong>. Głównym celem było zbadanie integralności referencyjnej danych, identyfikacja wąskich gardeł w operacjach logistycznych oraz przeanalizowanie ich bezpośredniego wpływu na satysfakcję i oceny konsumentów. </p>
-<p>Zwieńczeniem analizy jest autorski model segmentacyjny <strong>RFM (Recency, Frequency, Monetary)</strong> zaimplementowany w czystym SQL, który dzieli bazę klientów na strategiczne grupy biznesowe (m.in. <em>Champions</em>, <em>Loyal Customers</em>, <em>At Risk</em>), umożliwiając dopasowanie spersonalizowanych działań marketingowych. Projekt doskonale demonstruje podejście zorientowane na cele biznesowe oraz umiejętność zaawansowanego modelowania danych przy użyciu SQL i Pythona.</p>
-<p><a href="Analiza_Olist_EDA.ipynb" class="md-button md-button--primary">Pobierz Notebook</a></p>
-<p><iframe
-    id="content"
-    src="Analiza_Olist_EDA.html"
-    width="100%"
-    style="border:1px solid black;overflow:hidden;"
-></iframe>
-</p>
-<script>
-function resizeIframeToFitContent(iframe) {
-    iframe.style.height = (iframe.contentWindow.document.documentElement.scrollHeight + 50) + "px";
-    iframe.contentDocument.body.style["overflow"] = 'hidden';
-}
-window.addEventListener('load', function() {
-    var iframe = document.getElementById('content');
-    resizeIframeToFitContent(iframe);
-});
-</script>
+<h1 id="projekt-w-trakcie-aktualizacji">Projekt w trakcie aktualizacji</h1>
+<p>Przepraszam, pracuję nad nowymi funkcjonalnościami. Wróć wkrótce!</p>
 
 
 
