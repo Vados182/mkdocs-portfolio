@@ -4,7 +4,6 @@ Opis projektu pomocnik językowy
 
 Uczymy się nie słów lecz całych zdań. Idealny pomocnik językowy dla Ciebie – niezależnie od tego, czy uczysz się języka w domu, w pracy czy w podruży – powinien być przede wszystkim interaktywny, spersonalizowany i dostępny offline.
 
-Link gdzie można znaleźć projekt 
 
 <div class="grid cards" markdown>
 
