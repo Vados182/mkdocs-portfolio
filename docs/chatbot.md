@@ -10,7 +10,7 @@ Oto mój autorski chatbot stworzony przy użyciu Streamlit i OpenAI. Możesz prz
     allow="clipboard-read; clipboard-write; autoplay;"
     sandbox="allow-forms allow-modals allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-downloads"
 >
-</iframe>
+</iframe>s
 
 ### O projekcie:
 

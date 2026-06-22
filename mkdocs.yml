@@ -31,6 +31,7 @@ nav:
       - "Klasyfikacja Iris": iris/index.md
       - "Analiza Airbnb NY 2019": airbnb/index.md
       - "Interaktywny chatbot": chatbot.md
+  - Status: status.md
 
 # Rozszerzenia Markdown dla Data Science
 markdown_extensions:
