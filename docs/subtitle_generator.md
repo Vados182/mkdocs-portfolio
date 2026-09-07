@@ -1,5 +1,7 @@
 # 🎬 AI Video Subtitle Generator
 
+**2026-09-07**
+
 Aplikacja webowa do automatycznego generowania, edycji, tłumaczenia i wtapiania napisów do filmów, oparta na modelach OpenAI (Whisper & GPT-4).
 
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Kod%20źródłowy-blue?style=for-the-badge&logo=github)](https://github.com/twoja-nazwa-uzytkownika/nazwa-repozytorium)
