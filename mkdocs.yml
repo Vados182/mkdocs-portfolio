@@ -27,6 +27,8 @@ nav:
   - "Obecny projekt":
       - "Pomocnik językowy": language_helper/index.md
   - "Poprzednie projekty":
+      - "AI Video Subtitle Generator": subtitle_generator.md
+      - Kalkulator Mieszkań: mieszkania/index.md
       - "Analiza Olist E-commerce": olist/index.md
       - "Klasyfikacja Iris": iris/index.md
       - "Analiza Airbnb NY 2019": airbnb/index.md

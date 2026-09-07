@@ -13,10 +13,10 @@
       
       
       
-        <link rel="prev" href="../iris/">
+        <link rel="prev" href="../language_helper/">
       
       
-        <link rel="next" href="../chatbot/">
+        <link rel="next" href="../olist/">
       
       
         
@@ -27,7 +27,7 @@
     
     
       
-        <title>Analiza Airbnb NY 2019 - Vadim Vorobiov | Portfolio</title>
+        <title>Kalkulator Mieszkań - Vadim Vorobiov | Portfolio</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#analiza-eda-i-segmentacja-rynku-airbnb-w-nowym-jorku-python-sql" class="md-skip">
+        <a href="#kalkulator-cen-mieszkan-w-warszawie" class="md-skip">
           Skip to content
         </a>
       
@@ -110,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Analiza Airbnb NY 2019
+              Kalkulator Mieszkań
             
           </span>
         </div>
@@ -228,7 +228,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../mieszkania/" class="md-tabs__link">
+        <a href="./" class="md-tabs__link">
           
   
   
@@ -469,10 +469,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../mieszkania/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kalkulator Mieszkań
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -488,6 +515,59 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#live-demo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🚀 Live Demo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stos-technologiczny-architektura" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛠️ Stos Technologiczny &amp; Architektura
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kluczowe-funkcjonalnosci" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        💡 Kluczowe Funkcjonalności
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -553,19 +633,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../airbnb/" class="md-nav__link">
         
   
   
@@ -581,7 +652,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -669,6 +739,47 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#live-demo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🚀 Live Demo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stos-technologiczny-architektura" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛠️ Stos Technologiczny &amp; Architektura
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kluczowe-funkcjonalnosci" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        💡 Kluczowe Funkcjonalności
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -684,30 +795,36 @@
 
 
 
-<h1 id="analiza-eda-i-segmentacja-rynku-airbnb-w-nowym-jorku-python-sql">Analiza EDA i Segmentacja Rynku Airbnb w Nowym Jorku (Python &amp; SQL)</h1>
-<p><strong>2026-06-02</strong></p>
-<p>Kompleksowa analiza eksploracyjna (EDA) danych o wynajmie krótkoterminowym Airbnb w Nowym Jorku (48k+ rekordów). Celem projektu było zrozumienie struktury cenowej, identyfikacja czynników wpływających na popularność ofert oraz zaawansowane wykrywanie anomalii rynkowych. W projekcie połączyłem elastyczność biblioteki Pandas z wydajnością silnika relacyjnego DuckDB (SQL), co pozwoliło na sprawne czyszczenie danych, analizę statystyczną oraz stworzenie czytelnych wizualizacji w Seaborn. Projekt dowodzi umiejętności pracy w środowisku hybrydowym (Python + SQL) oraz podejścia opartego na logice biznesowej.</p>
-<p><a href="airbnb.ipynb" class="md-button md-button--primary">Pobierz Notebook</a></p>
+<h1 id="kalkulator-cen-mieszkan-w-warszawie">🏠 Kalkulator Cen Mieszkań w Warszawie</h1>
+<p><strong>2026-08-14</strong></p>
+<p><a href="https://kalkulator-mieszkan-warszawa-mwvogqtaov9nyf7h6fsmaj.streamlit.app"><img alt="Streamlit App" src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" /></a>
+<a href="https://github.com/Vados182/kalkulator-mieszkan-warszawa"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-Repository-181717?logo=github" /></a></p>
+<p>Aplikacja webowa end-to-end do szacowania wartości nieruchomości na rynku warszawskim. Projekt łączy tradycyjne uczenie maszynowe (Machine Learning) z technologiami GenAI, umożliwiając wycenę mieszkania na podstawie formularza lub surowego opisu ogłoszenia.</p>
+<hr />
+<h2 id="live-demo">🚀 Live Demo</h2>
+<p>Aplikację możesz wypróbować bezpośrednio poniżej lub otworzyć w <a href="https://kalkulator-mieszkan-warszawa-mwvogqtaov9nyf7h6fsmaj.streamlit.app">nowym oknie</a>:</p>
 <p><iframe
-    id="content"
-    src="airbnb.html"
-    width="100%"
-    style="border:1px solid black;overflow:hidden;"
-></iframe></p>
-<script>
-function resizeIframeToFitContent(iframe) {
-    iframe.style.height = (iframe.contentWindow.document.documentElement.scrollHeight + 50) + "px";
-    iframe.contentDocument.body.style["overflow"] = 'hidden';
-}
-window.addEventListener('load', function() {
-    var iframe = document.getElementById('content');
-    resizeIframeToFitContent(iframe);
-});
-window.addEventListener('resize', function() {
-    var iframe = document.getElementById('content');
-    resizeIframeToFitContent(iframe);
-});
-</script>
+  src="https://kalkulator-mieszkan-warszawa-mwvogqtaov9nyf7h6fsmaj.streamlit.app/?embed=true"
+  height="750"
+  style="width:100%; border:none; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"
+></iframe>
+</p>
+<hr />
+<h2 id="stos-technologiczny-architektura">🛠️ Stos Technologiczny &amp; Architektura</h2>
+<ul>
+<li><strong>Machine Learning:</strong> <code>PyCaret</code> (selekcja i trenowanie modelu regresyjnego), <code>scikit-learn</code>, <code>pandas</code>.</li>
+<li><strong>Generative AI &amp; NLP:</strong> <code>OpenAI API (gpt-4o-mini)</code>, <code>Instructor</code> (pobieranie ustrukturyzowanych danych z surowego tekstu ogłoszenia).</li>
+<li><strong>Observability:</strong> <code>Langfuse</code> (monitoring wywołań LLM, śledzenie kosztów i opóźnień).</li>
+<li><strong>User Interface:</strong> <code>Streamlit</code> z dedykowanymi stylowaniami CSS.</li>
+<li><strong>Deployment &amp; CI/CD:</strong> <code>Git</code>, <code>GitHub</code>, <code>Streamlit Community Cloud</code>.</li>
+</ul>
+<hr />
+<h2 id="kluczowe-funkcjonalnosci">💡 Kluczowe Funkcjonalności</h2>
+<ol>
+<li><strong>Szybka Wycena (Formularz):</strong> Pozwala użytkownikowi ręcznie wybrać dzielnicę, metraż, liczbę pokoi oraz piętro, zwracając estymowaną cenę całkowitą oraz cenę za $m^2$.</li>
+<li><strong>Analiza Tekstu Ogłoszenia (LLM):</strong> Wklejenie dowolnego opisu mieszkania powoduje automatyczne wyciągnięcie kluczowych parametrów przez model językowy i przekazanie ich do modelu ML.</li>
+<li><strong>Observability LLM:</strong> Wszystkie zapytania przetwarzane przez model OpenAI są rejestrowane w panelu Langfuse w celu kontroli jakości i kosztów.</li>
+</ol>
 
 
 
