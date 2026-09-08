@@ -33,6 +33,6 @@ You can try the app directly below or open it in a [new window](https://kalkulat
 
 ## 💡 Key Features
 
-1. **Quick Valuation (Form):** Allows the user to manually select the district, area size, number of rooms, and floor, returning the estimated total price and price per $m^2$.
+1. **Quick Valuation (Form):** Allows the user to manually select the district, area size, number of rooms, and floor, returning the estimated total price and price per m2.
 2. **Listing Text Analysis (LLM):** Pasting any apartment description automatically extracts key parameters via a language model and passes them to the ML model.
 3. **LLM Observability:** All queries processed by the OpenAI model are logged in the Langfuse dashboard for quality and cost control.

@@ -23,16 +23,17 @@ theme:
 
 # Dodanie ikon do menu (wymaga fontawesome)
 nav:
-  - Start: index.md
-  - "Obecny projekt":
-      - "Pomocnik językowy": language_helper/index.md
-  - "Poprzednie projekty":
+  - Home: index.md
+  - "Current Project":
+      - "Language Assistant": language_helper/index.md
+  - "Previous Projects":
       - "AI Video Subtitle Generator": subtitle_generator.md
-      - Kalkulator Mieszkań: mieszkania/index.md
-      - "Analiza Olist E-commerce": olist/index.md
-      - "Klasyfikacja Iris": iris/index.md
-      - "Analiza Airbnb NY 2019": airbnb/index.md
-      - "Interaktywny chatbot": chatbot.md
+      - "Warsaw Real Estate Calculator": mieszkania/index.md
+      - "Olist E-commerce Analysis": olist/index.md
+      - "Iris Classification": iris/index.md
+      - "NYC Airbnb Market Analysis": airbnb/index.md
+      - "Multimedia Chatbot Assistant (RAG)": chatbot.md
+      - "World GDP Dashboard": gdp_dashboard.md
   - Status: status.md
 
 # Rozszerzenia Markdown dla Data Science

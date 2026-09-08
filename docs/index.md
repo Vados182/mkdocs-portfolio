@@ -7,8 +7,8 @@ I am a **Data Science and AI** enthusiast who turns raw data into valuable decis
 ## 🚀 About Me
 Currently, I am focusing on building solutions in the area of Business Analytics. My approach is based on combining advanced analytics with clear data visualization.
 
-*   **Languages:** Python (Pandas, Scikit-Learn, PyTorch/TensorFlow), SQL.
-*   **Tools:** Docker, Git, MkDocs, MLflow.
+*   **Languages:** Python, SQL.
+*   **Tools:** Docker, MkDocs, MLflow, Scikit-Learn, Pandas, PyCaret, Streamlit, Matplotlib, Seaborn, OpenAI API, DuckDB, LangChain,Jupyter, Git, Langfuse.
 *   **My Approach:** "Data speaks for itself if you know how to ask it questions."
 
 ---
