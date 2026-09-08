@@ -1,3 +1,3 @@
-# Projekt w trakcie aktualizacji
+# Project Under Update
 
-Przepraszam, pracuję nad nowymi funkcjonalnościami. Wróć wkrótce!
+Sorry, I am working on new features. Check back soon!

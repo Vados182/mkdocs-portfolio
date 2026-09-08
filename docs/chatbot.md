@@ -1,8 +1,8 @@
-# 💬 Interaktywny Chatbot AI
+# 💬 Multimedia Chatbot Assistant (RAG)
 
 **2026-06-18**
 
-Oto mój autorski chatbot stworzony przy użyciu Streamlit i OpenAI. Możesz przetestować jego działanie bezpośrednio poniżej:
+Here is my original chatbot created using Streamlit and OpenAI. You can test its operation directly below:
 
 <iframe 
     src="https://vados182-streamlit-openai-chatbot-app-m3ly6e.streamlit.app/?embed=true"
@@ -10,10 +10,10 @@ Oto mój autorski chatbot stworzony przy użyciu Streamlit i OpenAI. Możesz prz
     allow="clipboard-read; clipboard-write; autoplay;"
     sandbox="allow-forms allow-modals allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-downloads"
 >
-</iframe>s
+</iframe>
 
-### O projekcie:
+### About the project:
 
-* **Technologie:** Python, Streamlit, OpenAI API, LangChain
-* **Funkcje:** Analiza dokumentów `.docx`, zapamiętywanie kontekstu rozmowy.
-* **Wdrożenie:** Aby projekt działał bez zarzutu, konieczne było wykonanie następujących kroków: instalacja i konfiguracja odpowiednich bibliotek, wdrożenie kluczy API, debugowanie uprawnień sieciowych oraz osadzenie kodu w MkDocs. Przeprowadzona została również pełna konfiguracja chmury i zarządzanie sekretami.
+* **Technologies:** Python, Streamlit, OpenAI API, LangChain
+* **Features:** Analysis of `.docx` documents, conversation context memory.
+* **Deployment:** For the project to run smoothly, it was necessary to perform the following steps: installation and configuration of appropriate libraries, deployment of API keys, debugging of network permissions, and embedding the code in MkDocs. Full cloud configuration and secret management were also carried out.

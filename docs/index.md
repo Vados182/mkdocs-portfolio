@@ -1,32 +1,32 @@
-# Cześć, jestem Vadim! 👋
+# Hi, I'm Vadim! 👋
 
-Jestem pasjonatem **Data Science i AI**, który zamienia surowe dane w wartościowe decyzje. Wierzę w kodowanie, które rozwiązuje realne problemy.
-
----
-
-## 🚀 O mnie
-Aktualnie skupiam się na budowaniu rozwiązań z obszaru Analizy biznesowej. Moje podejście opiera się na łączeniu zaawansowanej analityki z przejrzystą wizualizacją danych.
-
-*   **Języki:** Python (Pandas, Scikit-Learn, PyTorch/TensorFlow), SQL.
-*   **Narzędzia:** Docker, Git, MkDocs, MLflow.
-*   **Moje podejście:** "Dane mówią same za siebie, jeśli wiesz, jak je zapytać".
+I am a **Data Science and AI** enthusiast who turns raw data into valuable decisions. I believe in coding that solves real problems.
 
 ---
 
-## 🛠 Wybrane projekty
+## 🚀 About Me
+Currently, I am focusing on building solutions in the area of Business Analytics. My approach is based on combining advanced analytics with clear data visualization.
 
-| Projekt | Opis | Główne technologie |
+*   **Languages:** Python (Pandas, Scikit-Learn, PyTorch/TensorFlow), SQL.
+*   **Tools:** Docker, Git, MkDocs, MLflow.
+*   **My Approach:** "Data speaks for itself if you know how to ask it questions."
+
+---
+
+## 🛠 Featured Projects
+
+| Project | Description | Main Technologies |
 | :--- | :--- | :--- |
-| **Pomocnik językowy** | Aplikacja wspierająca naukę języków przy użyciu LLM. | Python, OpenAI API, Streamlit |
-| **Olist E-commerce** | Kompleksowa analiza zachowań zakupowych klientów. | SQL, Pandas, Seaborn |
-| **Interaktywny chatbot** | Chatbot bazujący na OpenAI. | LangChain, RAG |
+| **Language Assistant** | An app supporting language learning using LLMs. | Python, OpenAI API, Streamlit |
+| **Olist E-commerce** | Comprehensive analysis of customer purchasing behavior. | SQL, Pandas, Seaborn |
+| **Interactive Chatbot** | A chatbot powered by OpenAI. | LangChain, RAG |
 
-[Zobacz wszystkie projekty →](language_helper/index.md)
+[View all projects →](language_helper/index.md)
 
 ---
 
-## 📬 Kontakt
-Chętnie porozmawiam o projektach dot. Analizy danych, Data Science, wymianie doświadczeń lub możliwościach współpracy!
+## 📬 Contact
+I am happy to talk about Data Analysis, Data Science projects, exchange experiences, or discuss collaboration opportunities!
 
 *   **GitHub:** [github.com/Vados182](https://github.com/Vados182)
 *   **LinkedIn:** [linkedin.com/in/vadim-vorobiov-226a58147](https://linkedin.com/in/vadim-vorobiov-226a58147)
@@ -34,22 +34,22 @@ Chętnie porozmawiam o projektach dot. Analizy danych, Data Science, wymianie do
 
 ---
 
-### Moje główne obszary pracy
+### My Core Areas of Expertise
 
 <div class="grid cards" markdown>
 
--   **Analiza Danych**
+-   **Data Analysis**
     ---
-    Eksploracja, czyszczenie i wizualizacja danych (EDA).
+    Exploration, cleaning, and data visualization (EDA).
     
 -   **Machine Learning**
     ---
-    Budowa i optymalizacja modeli predykcyjnych.
+    Building and optimizing predictive models.
 
 -   **AI & LLMs**
     ---
-    Implementacja rozwiązań opartych o generatywną sztuczną inteligencję.
+    Implementing solutions based on generative artificial intelligence.
 
 </div>
 
-> *Nieustannie poszerzam swój warsztat techniczny – aktualnie pogłębiam zaawansowane techniki zapytań SQL, aby jeszcze efektywniej zarządzać dużymi zbiorami danych i optymalizować procesy analityczne.*
+> *I am constantly expanding my technical skillset – currently deepening advanced SQL querying techniques to manage large datasets even more efficiently and optimize analytical processes.*

@@ -1,17 +1,17 @@
-# 🏠 Kalkulator Cen Mieszkań w Warszawie
+# 🏠 Warsaw Real Estate Price Calculator
 
 **2026-08-14**
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://kalkulator-mieszkan-warszawa-mwvogqtaov9nyf7h6fsmaj.streamlit.app)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/Vados182/kalkulator-mieszkan-warszawa)
 
-Aplikacja webowa end-to-end do szacowania wartości nieruchomości na rynku warszawskim. Projekt łączy tradycyjne uczenie maszynowe (Machine Learning) z technologiami GenAI, umożliwiając wycenę mieszkania na podstawie formularza lub surowego opisu ogłoszenia.
+An end-to-end web application for estimating property values in the Warsaw market. The project combines traditional Machine Learning with GenAI technologies, enabling property valuation based on a form or a raw listing description.
 
 ---
 
 ## 🚀 Live Demo
 
-Aplikację możesz wypróbować bezpośrednio poniżej lub otworzyć w [nowym oknie](https://kalkulator-mieszkan-warszawa-mwvogqtaov9nyf7h6fsmaj.streamlit.app):
+You can try the app directly below or open it in a [new window](https://kalkulator-mieszkan-warszawa-mwvogqtaov9nyf7h6fsmaj.streamlit.app):
 
 <iframe
   src="https://kalkulator-mieszkan-warszawa-mwvogqtaov9nyf7h6fsmaj.streamlit.app/?embed=true"
@@ -21,18 +21,18 @@ Aplikację możesz wypróbować bezpośrednio poniżej lub otworzyć w [nowym ok
 
 ---
 
-## 🛠️ Stos Technologiczny & Architektura
+## 🛠️ Tech Stack & Architecture
 
-* **Machine Learning:** `PyCaret` (selekcja i trenowanie modelu regresyjnego), `scikit-learn`, `pandas`.
-* **Generative AI & NLP:** `OpenAI API (gpt-4o-mini)`, `Instructor` (pobieranie ustrukturyzowanych danych z surowego tekstu ogłoszenia).
-* **Observability:** `Langfuse` (monitoring wywołań LLM, śledzenie kosztów i opóźnień).
-* **User Interface:** `Streamlit` z dedykowanymi stylowaniami CSS.
+* **Machine Learning:** `PyCaret` (regression model selection and training), `scikit-learn`, `pandas`.
+* **Generative AI & NLP:** `OpenAI API (gpt-4o-mini)`, `Instructor` (extracting structured data from raw listing text).
+* **Observability:** `Langfuse` (LLM call monitoring, cost tracking, and latency monitoring).
+* **User Interface:** `Streamlit` with custom CSS styling.
 * **Deployment & CI/CD:** `Git`, `GitHub`, `Streamlit Community Cloud`.
 
 ---
 
-## 💡 Kluczowe Funkcjonalności
+## 💡 Key Features
 
-1. **Szybka Wycena (Formularz):** Pozwala użytkownikowi ręcznie wybrać dzielnicę, metraż, liczbę pokoi oraz piętro, zwracając estymowaną cenę całkowitą oraz cenę za $m^2$.
-2. **Analiza Tekstu Ogłoszenia (LLM):** Wklejenie dowolnego opisu mieszkania powoduje automatyczne wyciągnięcie kluczowych parametrów przez model językowy i przekazanie ich do modelu ML.
-3. **Observability LLM:** Wszystkie zapytania przetwarzane przez model OpenAI są rejestrowane w panelu Langfuse w celu kontroli jakości i kosztów.
+1. **Quick Valuation (Form):** Allows the user to manually select the district, area size, number of rooms, and floor, returning the estimated total price and price per $m^2$.
+2. **Listing Text Analysis (LLM):** Pasting any apartment description automatically extracts key parameters via a language model and passes them to the ML model.
+3. **LLM Observability:** All queries processed by the OpenAI model are logged in the Langfuse dashboard for quality and cost control.

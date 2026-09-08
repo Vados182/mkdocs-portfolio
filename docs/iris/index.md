@@ -3,9 +3,9 @@
 
 **2022-12-02**
 
-Zapraszam do zapoznania się z eksperymentalnym projektem dot. analizy danych irysów za pomocą eksploracji domenowej (EDA). W tym projekcie znajdziesz mnóstwo trafnych wniosków i ciekawych obserwacji, które rzucają nowe światło na te piękne kwiaty. Przygotuj się na fascynującą podróż przez dane, która z pewnością wzbogaci Twoją wiedzę i zainspiruje do dalszych badań.
+Welcome to explore an experimental project on Iris data analysis using exploratory data analysis (EDA). In this project, you will find plenty of accurate insights and fascinating observations that shed new light on these beautiful flowers. Get ready for a fascinating journey through the data that is sure to enrich your knowledge and inspire further research. The project was written in Polish.
 
-<a href="iris.ipynb" class="md-button md-button--primary">Pobierz Notebook</a>
+<a href="iris.ipynb" class="md-button md-button--primary">Download Notebook</a>
 
 <iframe
     id="content"

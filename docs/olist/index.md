@@ -1,14 +1,14 @@
-# Analiza EDA i Segmentacja Klientów RFM na Rynku E-Commerce (Olist & SQL)
+# # EDA and RFM Customer Segmentation in E-Commerce (Olist & SQL)
 
 **2026-06-19**
 
-Kompleksowa analiza eksploracyjna (EDA) oraz zaawansowana segmentacja klientów brazylijskiego rynku e-commerce na podstawie rzeczywistych danych platformy **Olist** (ponad 100k zamówień). 
+Comprehensive exploratory data analysis (EDA) and advanced customer segmentation for the Brazilian e-commerce market based on real data from the **Olist** platform (over 100k orders). 
 
-W projekcie połączyłem wydajność nowoczesnego silnika relacyjnego **DuckDB (SQL)** pracującego w pamięci z możliwościami wizualizacyjnymi bibliotek **Python (Seaborn & Matplotlib)**. Głównym celem było zbadanie integralności referencyjnej danych, identyfikacja wąskich gardeł w operacjach logistycznych oraz przeanalizowanie ich bezpośredniego wpływu na satysfakcję i oceny konsumentów. 
+In this project, I combined the performance of a modern in-memory relational engine **DuckDB (SQL)** with the visualization capabilities of **Python (Seaborn & Matplotlib)** libraries. The main goal was to examine data referential integrity, identify bottlenecks in logistics operations, and analyze their direct impact on consumer satisfaction and ratings. 
 
-Zwieńczeniem analizy jest autorski model segmentacyjny **RFM (Recency, Frequency, Monetary)** zaimplementowany w czystym SQL, który dzieli bazę klientów na strategiczne grupy biznesowe (m.in. *Champions*, *Loyal Customers*, *At Risk*), umożliwiając dopasowanie spersonalizowanych działań marketingowych. Projekt doskonale demonstruje podejście zorientowane na cele biznesowe oraz umiejętność zaawansowanego modelowania danych przy użyciu SQL i Pythona.
+The culmination of the analysis is a custom **RFM (Recency, Frequency, Monetary)** segmentation model implemented in pure SQL, which divides the customer base into strategic business groups (e.g., *Champions*, *Loyal Customers*, *At Risk*), enabling tailored marketing actions. The project perfectly demonstrates a business-oriented approach and advanced data modeling skills using SQL and Python.
 
-<a href="Analiza_Olist_EDA.ipynb" class="md-button md-button--primary">Pobierz Notebook</a>
+<a href="Analiza_Olist_EDA.ipynb" class="md-button md-button--primary">Download Notebook</a>
 
 <iframe
     id="content"

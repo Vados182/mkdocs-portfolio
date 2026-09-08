@@ -1,18 +1,18 @@
-# Pomocnik językowy
+# Language Assistant
 
-Opis projektu pomocnik językowy
+Project description: Language Assistant
 
-Uczymy się nie słów lecz całych zdań. Idealny pomocnik językowy dla Ciebie – niezależnie od tego, czy uczysz się języka w domu, w pracy czy w podruży – powinien być przede wszystkim interaktywny, spersonalizowany i dostępny offline.
+We learn not just words, but entire sentences. The ideal language assistant for you – whether you are learning at home, at work, or on the go – should be interactive, personalized, and available offline above all.
 
 
 <div class="grid cards" markdown>
 
-- **SZYBKI** Aplikacja oparta na systemie powtórek pozwala na błyskawiczne powtórki słownictwa dzięki algorytmom optymalizującym czas nauki.
-- **SKUTECZNY** Narzędzia wykorzystujące sztuczną inteligencję działają jak native speaker w kieszeni. Pozwalają na natychmiastowe poprawianie błędów w czasie rzeczywistym.
-- **ŁATWY** Intuicyjny interfejs oraz grywalizacja sprawiają, że nauka nie sprawia trudności i wciąga od pierwszych minut.
-- **KONTEKSTOWY** Używanie wtyczek takich jak Reverso Context pozwala sprawdzić, jak dane zdania brzmią, co ułatwia zapamiętywanie.
+- **FAST** The app, based on a spaced repetition system, allows for lightning-fast vocabulary reviews using algorithms that optimize study time.
+- **EFFECTIVE** AI-powered tools act like a native speaker in your pocket, allowing for instant, real-time error correction.
+- **EASY** An intuitive interface and gamification make learning effortless and engaging from the very first minutes.
+- **CONTEXTUAL** Using extensions like Reverso Context lets you check how specific sentences sound, making memorization much easier.
 
 </div>
 
 
-[Subskrybuj mój projekt](../status.md){ .md-button }
+[Subscribe to my project](../status.md){ .md-button }

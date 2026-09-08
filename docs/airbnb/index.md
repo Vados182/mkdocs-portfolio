@@ -1,10 +1,10 @@
-# Analiza EDA i Segmentacja Rynku Airbnb w Nowym Jorku (Python & SQL)
+# New York Airbnb Market Analysis
 
 **2026-06-02**
 
-Kompleksowa analiza eksploracyjna (EDA) danych o wynajmie krótkoterminowym Airbnb w Nowym Jorku (48k+ rekordów). Celem projektu było zrozumienie struktury cenowej, identyfikacja czynników wpływających na popularność ofert oraz zaawansowane wykrywanie anomalii rynkowych. W projekcie połączyłem elastyczność biblioteki Pandas z wydajnością silnika relacyjnego DuckDB (SQL), co pozwoliło na sprawne czyszczenie danych, analizę statystyczną oraz stworzenie czytelnych wizualizacji w Seaborn. Projekt dowodzi umiejętności pracy w środowisku hybrydowym (Python + SQL) oraz podejścia opartego na logice biznesowej.
+Comprehensive exploratory data analysis (EDA) of New York City Airbnb short-term rental data (48k+ records). The project aimed to understand the pricing structure, identify factors driving listing popularity, and perform advanced market anomaly detection. I combined the flexibility of the Pandas library with the performance of the DuckDB SQL relational engine, enabling efficient data cleaning, statistical analysis, and clear visualizations using Seaborn. This project demonstrates proficiency in a hybrid environment (Python + SQL) and a business logic-driven approach. The project was written in Polish.
 
-<a href="airbnb.ipynb" class="md-button md-button--primary">Pobierz Notebook</a>
+<a href="airbnb.ipynb" class="md-button md-button--primary">Download Notebook</a>
 
 <iframe
     id="content"
