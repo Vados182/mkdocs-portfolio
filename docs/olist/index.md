@@ -6,7 +6,9 @@ Comprehensive exploratory data analysis (EDA) and advanced customer segmentation
 
 In this project, I combined the performance of a modern in-memory relational engine **DuckDB (SQL)** with the visualization capabilities of **Python (Seaborn & Matplotlib)** libraries. The main goal was to examine data referential integrity, identify bottlenecks in logistics operations, and analyze their direct impact on consumer satisfaction and ratings. 
 
-The culmination of the analysis is a custom **RFM (Recency, Frequency, Monetary)** segmentation model implemented in pure SQL, which divides the customer base into strategic business groups (e.g., *Champions*, *Loyal Customers*, *At Risk*), enabling tailored marketing actions. The project perfectly demonstrates a business-oriented approach and advanced data modeling skills using SQL and Python. The project was written in Polish.
+The culmination of the analysis is a custom **RFM (Recency, Frequency, Monetary)** segmentation model implemented in pure SQL, which divides the customer base into strategic business groups (e.g., *Champions*, *Loyal Customers*, *At Risk*), enabling tailored marketing actions. The project perfectly demonstrates a business-oriented approach and advanced data modeling skills using SQL and Python. 
+
+The project was written in Polish.
 
 <a href="Analiza_Olist_EDA.ipynb" class="md-button md-button--primary">Download Notebook</a>
 

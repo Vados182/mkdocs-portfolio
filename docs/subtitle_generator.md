@@ -4,8 +4,8 @@
 
 A web application for automatically generating, editing, translating, and burning subtitles into videos, powered by OpenAI models (Whisper & GPT-4).
 
-[![GitHub Repository](https://img.shields.io/badge/GitHub-Source%20Code-blue?style=for-the-badge&logo=github)](https://github.com/Vados182/Warsaw-Real-Estate-Price-Calculator)
-[![Streamlit App](https://img.shields.io/badge/Streamlit-View%20Live-red?style=for-the-badge&logo=streamlit)](https://subtitle-generator-app-o7rkxymdduw2aydy3q6p4e.streamlit.app)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Source%20Code-blue?style=for-the-badge&logo=github)](https://github.com/Vados182/AI-Video-Subtitle-Generator)
+[![Streamlit App](https://img.shields.io/badge/Streamlit-View%20Live-red?style=for-the-badge&logo=streamlit)](https://ai-video-subtitle-generator-cjdtjdjrbdusghdisffsnv.streamlit.app/)
 
 ---
 

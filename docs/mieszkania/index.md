@@ -2,19 +2,21 @@
 
 **2026-08-14**
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://kalkulator-mieszkan-warszawa-mwvogqtaov9nyf7h6fsmaj.streamlit.app)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/Vados182/kalkulator-mieszkan-warszawa)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://warsaw-real-estate-price-calculator-bh8g7p6ix8sngggencrpae.streamlit.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/Vados182/Warsaw-Real-Estate-Price-Calculator)
 
-An end-to-end web application for estimating property values in the Warsaw market. The project combines traditional Machine Learning with GenAI technologies, enabling property valuation based on a form or a raw listing description.
+An end-to-end web application for estimating property values in the Warsaw market. The project combines traditional Machine Learning with GenAI technologies, enabling property valuation based on a form or a raw listing description. 
+
+The project was written in Polish.
 
 ---
 
 ## 🚀 Live Demo
 
-You can try the app directly below or open it in a [new window](https://kalkulator-mieszkan-warszawa-mwvogqtaov9nyf7h6fsmaj.streamlit.app):
+You can try the app directly below or open it in a [new window](https://warsaw-real-estate-price-calculator-bh8g7p6ix8sngggencrpae.streamlit.app/):
 
 <iframe
-  src="https://kalkulator-mieszkan-warszawa-mwvogqtaov9nyf7h6fsmaj.streamlit.app/?embed=true"
+  src="https://warsaw-real-estate-price-calculator-bh8g7p6ix8sngggencrpae.streamlit.app/?embed=true"
   height="750"
   style="width:100%; border:none; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"
 ></iframe>

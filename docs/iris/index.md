@@ -1,9 +1,11 @@
 
-# Fascynująca Analiza Danych EDA Irysów: Eksploracja Domenowa
+# Iris EDA Data Analysis: Domain Exploration
 
 **2022-12-02**
 
-Welcome to explore an experimental project on Iris data analysis using exploratory data analysis (EDA). In this project, you will find plenty of accurate insights and fascinating observations that shed new light on these beautiful flowers. Get ready for a fascinating journey through the data that is sure to enrich your knowledge and inspire further research. The project was written in Polish.
+Welcome to explore an experimental project on Iris data analysis using exploratory data analysis (EDA). In this project, you will find plenty of accurate insights and fascinating observations that shed new light on these beautiful flowers. Get ready for a fascinating journey through the data that is sure to enrich your knowledge and inspire further research. 
+
+The project was written in Polish.
 
 <a href="iris.ipynb" class="md-button md-button--primary">Download Notebook</a>
 

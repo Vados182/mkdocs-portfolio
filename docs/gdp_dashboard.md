@@ -2,7 +2,7 @@
 
 **2025-09-15**
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://warsaw-real-estate-price-calculator-bh8g7p6ix8sngggencrpae.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gdp-dashboard-ioa9btcfdun.streamlit.app/)
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/Vados182/World-GDP-Dashboard)
 
 An interactive web application built with Streamlit for visualizing world Gross Domestic Product (GDP) data across different countries and years.
