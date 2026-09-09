@@ -33,7 +33,7 @@ The project was designed with a focus on separating logic from the interface (Mo
 You can test the running application directly in the frame below or open it in a new tab:
 
 <div style="position: relative; width: 100%; height: 700px; overflow: hidden; border-radius: 8px; border: 1px solid #333;">
-  <iframe src="https://subtitle-generator-app-o7rksymdduw2aydy3q6p4e.streamlit.app/?embed=true"
+  <iframe src="https://ai-video-subtitle-generator-cjdtjdjrbdusghdisffsnv.streamlit.app/?embed=true"
           style="width: 100%; height: 100%; border: none;"
           allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
           sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts">
