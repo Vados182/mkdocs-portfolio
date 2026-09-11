@@ -1,4 +1,4 @@
-# Hi, I'm Vadim! 👋
+# Hi, I'm Wadim! 👋
 
 I am a **Data Science and AI** enthusiast who turns raw data into valuable decisions. I believe in coding that solves real problems.
 
@@ -29,8 +29,8 @@ Currently, I am focusing on building solutions in the area of Business Analytics
 I am happy to talk about Data Analysis, Data Science projects, exchange experiences, or discuss collaboration opportunities!
 
 *   **GitHub:** [github.com/Vados182](https://github.com/Vados182)
-*   **LinkedIn:** [linkedin.com/in/vadim-vorobiov-226a58147](https://linkedin.com/in/vadim-vorobiov-226a58147)
-*   **E-mail:** vadim.vorobiov2022@gmail.com
+*   **LinkedIn:** [linkedin.com/in/wadim-worobiow-226a58147](https://linkedin.com/in/wadim-worobiow-226a58147)
+*   **E-mail:** bassuha@gmail.com
 
 ---
 
