@@ -7,8 +7,14 @@ I am a **Data Science and AI** enthusiast who turns raw data into valuable decis
 ## 🚀 About Me
 Currently, I am focusing on building solutions in the area of Business Analytics. My approach is based on combining advanced analytics with clear data visualization.
 
-*   **Languages:** Python, SQL.
-*   **Tools:** Docker, MkDocs, MLflow, Scikit-Learn, Pandas, PyCaret, Streamlit, Matplotlib, Seaborn, OpenAI API, DuckDB, LangChain,Jupyter, Git, Langfuse.
+
+
+*   **Programming Languages** Python, SQL
+*   **Data & Databases** Pandas, DuckDB, SQLite, QDrant, Pydantic
+*   **Machine Learning & AI** PyCaret, OpenAI API, Instructor, LangChain, Langfuse
+*   **Visualization & Apps** FastAPI, Streamlit, Matplotlib, Seaborn, Jupyter
+*   **Tools & Methodology** Git, VS Code, Agile, Scrum, Kanban, Trello, Jira, ERP Systems
+*   **Cloud & DevOps** Docker, Render, AWS, DigitalOcean
 *   **My Approach:** "Data speaks for itself if you know how to ask it questions."
 
 ---
