@@ -7,27 +7,28 @@ I am a **Data Science and AI** enthusiast who turns raw data into valuable decis
 ## 🚀 About Me
 Currently, I am focusing on building solutions in the area of Business Analytics. My approach is based on combining advanced analytics with clear data visualization.
 
+### 🛠️ Technical Skills
+* **Programming Languages:** Python, SQL
+* **Data & Databases:** Pandas, PostgreSQL, DuckDB, SQLite, QDrant, Pydantic, Psycopg2
+* **Machine Learning & AI:** Google Gemini API, OpenAI API, PyCaret, Instructor, LangChain, Langfuse
+* **Visualization & Apps:** Streamlit, Plotly, FastAPI, Matplotlib, Seaborn, Jupyter
+* **Tools & Methodology:** Git, GitHub Actions (CI/CD), VS Code, Agile, Scrum, Kanban, Trello, Jira, ERP Systems
+* **Cloud & DevOps:** Render, Docker, AWS, DigitalOcean
 
-
-*   **Programming Languages** Python, SQL
-*   **Data & Databases** Pandas, DuckDB, SQLite, QDrant, Pydantic
-*   **Machine Learning & AI** PyCaret, OpenAI API, Instructor, LangChain, Langfuse
-*   **Visualization & Apps** FastAPI, Streamlit, Matplotlib, Seaborn, Jupyter
-*   **Tools & Methodology** Git, VS Code, Agile, Scrum, Kanban, Trello, Jira, ERP Systems
-*   **Cloud & DevOps** Docker, Render, AWS, DigitalOcean
-*   **My Approach:** "Data speaks for itself if you know how to ask it questions."
+> **My Approach:** *"Data speaks for itself if you know how to ask it questions."*
 
 ---
 
-## 🛠 Featured Projects
+## 🛠️ Featured Projects
 
 | Project | Description | Main Technologies |
 | :--- | :--- | :--- |
+| **TikTok Analytics AI** | Automated sentiment analysis & live dashboard for social data. | Python, Gemini API, PostgreSQL, Streamlit, GitHub Actions |
 | **Language Assistant** | An app supporting language learning using LLMs. | Python, OpenAI API, Streamlit |
 | **Olist E-commerce** | Comprehensive analysis of customer purchasing behavior. | SQL, Pandas, Seaborn |
 | **Interactive Chatbot** | A chatbot powered by OpenAI. | LangChain, RAG |
 
-[View all projects →](language_helper/index.md)
+[View all projects ➔](tiktok_analytics.md)
 
 ---
 

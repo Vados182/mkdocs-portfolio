@@ -27,6 +27,8 @@ nav:
   - "Current Project":
       - "Language Assistant": language_helper/index.md
   - "Previous Projects":
+      - "TikTok Analytics AI": tiktok_analytics.md
+      - "MLOps & GenAI E-Commerce Platform": olist_churn.md
       - "Warsaw Real Estate Price Predictor (REST API & LLM Observability)": real_estate_api.md
       - "AI Video Subtitle Generator": subtitle_generator.md
       - "Warsaw Real Estate Calculator": mieszkania/index.md
