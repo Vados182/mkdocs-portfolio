@@ -1,6 +1,6 @@
 # Hi, I'm Wadim! 👋
 
-I am a **Data Scientist** with a strong background in building production ML applications and GenAI/RAG solutions. Experienced across the full data product lifecycle—from advanced analytics (SQL, DuckDB, RFM) to deploying containerized services (FastAPI, Docker, Render) with complete CI/CD pipelines and model observability (Langfuse, Azure ML).
+I am a **Data Scientist** with a strong background in building production ML applications and GenAI/RAG solutions. Experienced across the full data product lifecycle—from advanced analytics (SQL, DuckDB, PySpark) to deploying containerized services (FastAPI, Docker, Render) with complete CI/CD pipelines, computer vision (PyTorch), and model observability.
 
 ---
 
@@ -15,6 +15,7 @@ I focus on turning raw data into valuable decisions and fully automated data pro
 
 | Project | Description | Main Technologies |
 | :--- | :--- | :--- |
+| **[Multimodal E-Commerce Intelligence Platform](#multimodal-e-commerce-intelligence-platform)** | Production analytical platform integrating PySpark ETL, GenAI agents, PyTorch computer vision, and causal inference. | Python, FastAPI, PySpark, PyTorch, OpenAI API, Streamlit, Docker, GitHub Actions |
 | **[MLOps & GenAI Customer Retention Platform](#mlops--genai-customer-retention-platform)** | End-to-end churn prediction pipeline with dynamic LLM retention messaging. | Python, XGBoost, Azure ML, FastAPI, Docker, Render, GitHub Actions |
 | **[TikTok AI Analytics & Automated Pipeline](#tiktok-ai-analytics--automated-pipeline)** | Automated ingestion, GenAI sentiment analysis, and live Streamlit dashboard. | Python, Gemini API, PostgreSQL, Streamlit, GitHub Actions, Render |
 | **[Warsaw Real Estate Price Predictor](#warsaw-real-estate-price-predictor-production-rest-api--mlllm)** | Production REST API with LLM parameter extraction, inference, and Langfuse tracking. | Python, FastAPI, PyCaret, GPT-4o-mini, Langfuse, Docker, Render |
@@ -27,6 +28,11 @@ I focus on turning raw data into valuable decisions and fully automated data pro
 ---
 
 ## 📌 Projects Detail
+
+### Multimodal E-Commerce Intelligence Platform
+A production-ready analytical system designed for e-commerce intelligence that combines distributed data pipelines, computer vision, generative AI, and causal analytics into a unified microservice architecture.
+- **Skills**: Python, FastAPI, PySpark, PyTorch (`MobileNetV3`), Causal Inference, OpenAI API, Streamlit, Docker, GitHub Actions (CI/CD)
+- **Result**: Engineered a resource-optimized FastAPI microservice (512MB RAM constraint on Render) backed by a PySpark ETL pipeline exporting to Parquet storage, integrated with a PyTorch image classifier and GenAI product categorization agent featuring automatic fallback mocks.
 
 ### MLOps & GenAI Customer Retention Platform
 End-to-end production pipeline for predicting e-commerce customer churn and automatically generating GenAI retention strategies.
@@ -73,8 +79,8 @@ A web tool automating the process of generating, translating, interactively edit
 ## 🛠️ Technical Skills
 
 * **Programming Languages:** Python, SQL
-* **Data & Databases:** Pandas, DuckDB, SQLite, QDrant, Pydantic, PostgreSQL, Psycopg2
-* **Machine Learning & AI:** Google Gemini API, OpenAI API, XGBoost, Optuna, SHAP, Azure Machine Learning, PyCaret, Instructor, LangChain, Langfuse
+* **Data & Big Data:** PySpark, Pandas, DuckDB, SQLite, QDrant, Pydantic, PostgreSQL, Psycopg2, Parquet
+* **Machine Learning, Deep Learning & AI:** PyTorch (`torchvision`), Causal Inference, Google Gemini API, OpenAI API, XGBoost, Optuna, SHAP, Azure Machine Learning, PyCaret, Instructor, LangChain, Langfuse
 * **Visualization & Apps:** FastAPI (REST API), Streamlit, Plotly, Matplotlib, Seaborn, Jupyter
 * **Tools & Methodology:** Git, GitHub Actions (CI/CD), VS Code, Agile, Scrum, Kanban, Trello, Jira, Anaconda, ERP Systems
 * **Cloud & DevOps:** Docker, Render, AWS, DigitalOcean
@@ -85,21 +91,21 @@ A web tool automating the process of generating, translating, interactively edit
 
 <div class="grid cards" markdown>
 
--   **Advanced Analytics & SQL**
+-   **Advanced Analytics & Data Engineering**
     ---
-    Exploration, data cleaning, RFM segmentation, and high-performance querying using DuckDB and PostgreSQL.
+    ETL pipelines with PySpark, Parquet storage, RFM segmentation, and high-performance querying using DuckDB and PostgreSQL.
     
--   **Machine Learning & MLOps**
+-   **Machine Learning, Deep Learning & MLOps**
     ---
-    Building predictive models, hyperparameter tuning (Optuna), experiment tracking (Azure ML), and model explainability (SHAP).
+    Building predictive models, computer vision classifiers (PyTorch), hyperparameter tuning (Optuna), experiment tracking (Azure ML), and model explainability (SHAP).
 
 -   **GenAI, RAG & LLM Observability**
     ---
-    Developing RAG applications, structured output extraction (Instructor/Pydantic), and monitoring token consumption with Langfuse.
+    Developing RAG applications, LLM agents with fallback architectures, structured output extraction (Instructor/Pydantic), and monitoring token consumption with Langfuse.
 
 -   **Cloud Deployment & CI/CD**
     ---
-    Containerizing applications with Docker and building automated CI/CD deployment pipelines using GitHub Actions, FastAPI, and Render.
+    Containerizing applications with Docker and building automated CI/CD deployment pipelines using GitHub Actions, FastAPI REST APIs, Streamlit, and Render.
 
 </div>
 
